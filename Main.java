@@ -1148,7 +1148,7 @@ public class Main extends JFrame{
    
     public Main(int width, int height)
 	{
-                final JFXPanel fxPanel = new JFXPanel();
+                final JFXPanel fxPanel = new JFXPanel();//Base para reproductor de mp3
                 
                 this.setDefaultCloseOperation(EXIT_ON_CLOSE);
                 this.setSize(width, height);//JFrame Size
